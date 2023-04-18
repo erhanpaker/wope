@@ -5,16 +5,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class wopePage {
+public class WopePage {
 
-    public wopePage(){
+    public WopePage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
 
-    @FindBy(xpath = "twotabsearchtextbox")
-    public WebElement aramaKutusu;
+    @FindBy(xpath = "//button[@class='header-button header-button-ghost']")
+    public WebElement loginButonu;
+
 
 
 

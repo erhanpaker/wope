@@ -1,6 +1,6 @@
-@erhan
-    Feature: US ISMI
 
+    Feature: US ISMI
+@erhan
     Scenario:
 
       Given    kullanıcı wope gider
