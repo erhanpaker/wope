@@ -2,18 +2,34 @@ package stepdefinions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import utilities.ConfigReader;
+import utilities.Driver;
 
-public class wopeStart {
+public class start {
 
-    @Given("Test adım")
-    public void test_adım() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    @Then("Test adım")
-    public void test_adım() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @Given("kullanıcı wope gider")
+    public void kullanıcı_wope_gider() {
+        Driver.getDriver().get(ConfigReader.getProperty("url"));
+
+        @Then("login butonuna tıklar")
+        public void login_butonuna_tıklar() {
+
+
+        }
+        @Then("mail adresinin girer")
+        public void mail_adresinin_girer() {
+
+        }
+        @Then("parolasını girer")
+        public void parolasını_girer() {
+
+        }
+
+
+
+
+
+
     }
 
 

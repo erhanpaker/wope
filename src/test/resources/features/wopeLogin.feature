@@ -1,6 +1,11 @@
-
-  Feature: US ISMI
 @erhan
-    Scenario:  Test Case
-      Given    Test adım
-      T
+    Feature: US ISMI
+
+    Scenario:
+
+      Given    kullanıcı wope gider
+      Then     login butonuna tıklar
+      Then     mail adresinin girer
+      Then     parolasını girer
+
+
